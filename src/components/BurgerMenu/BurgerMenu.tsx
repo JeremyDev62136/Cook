@@ -12,7 +12,7 @@ const BurgerMenu = () => {
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <div
-                    className={`h-1 w-10 bg-red-500 rounded-full transform transition duration-300 ease-in-out ${isOpen ? 'rotate-45 translate-y-3 bg-red-50' : ''
+                    className={`h-1 w-10  rounded-full transform transition duration-300 ease-in-out ${isOpen ? 'rotate-45 translate-y-3 bg-red-50' : 'bg-red-500'
                         }`}
                 />
                 <div
@@ -20,7 +20,7 @@ const BurgerMenu = () => {
                         }`}
                 />
                 <div
-                    className={`h-1 w-10 bg-red-500 rounded-full transform transition duration-300 ease-in-out ${isOpen ? '-rotate-45 -translate-y-3 bg-red-50' : ''
+                    className={`h-1 w-10  rounded-full transform transition duration-300 ease-in-out ${isOpen ? '-rotate-45 -translate-y-3 bg-red-50' : 'bg-red-500'
                         }`}
                 />
             </button>
